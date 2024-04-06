@@ -1,0 +1,153 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+  }
+
+header {
+    width: 100%;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    background: black;
+  }
+
+.foto_grande {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.descripcion {
+    height: 348px;
+    color: white;
+    background: black; 
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 45;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 100;
+  }
+
+.mitad img{
+    height: 237px;
+}
+
+.mitad p {
+    width: 475px;
+    padding-right: 106px;
+}
+
+.caja_caract {
+    width: 100%;
+    height: 348px;
+    color: white;
+    background: #1e1a13 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.caja_caract h3 {
+    padding-top: 75px;
+    padding-bottom: 50px;
+    margin: 0;
+
+}
+
+.caja_listado {
+    
+    opacity: 0.98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 20px;
+    padding: 0;
+}
+  
+.cajita {
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+  
+.caja_caract h3 {
+    font-weight: 700;
+    color: "white";
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+  
+
+  
+i {
+    font-size: 35px;
+}
+
+.cajita p {
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    width: 202px;
+}
+
+.galeria {
+    height: 348px;
+    background: black; 
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 73;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    margin: 0;
+    opacity: 0.96;
+   
+    
+}
+
+.galeria img {
+    height: 202px;
+    
+}
+
+footer {
+    width: 100%;
+    height: 102px;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    padding-top: 39;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.94;
+
+    
+}
+
